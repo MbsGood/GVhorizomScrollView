@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 		lly = (LinearLayout) findViewById(R.id.lly);
 		gridView = (GridView) findViewById(R.id.gv);
 		for (int i = 0; i < 8; i++) {
-			list.add("测试" + i);
+			list.add("测试+dd " + i);
 		}
 
 		setGridView();
